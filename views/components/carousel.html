@@ -1,5 +1,5 @@
 
-<div class="carousel-container">
+<div class="carousel-container" ng-swipe-left="next()" ng-swipe-right="previous()">
   <!--Top Marquee for controls and info display-->
   <div class="carousel-controls col-xs-12">
     <div class="previous" ng-click="previous()">
@@ -22,6 +22,7 @@
   <div class="info">
     <div class="animated-slide" ng-class="direction" ng-hide="!isCurrentSlideIndex($index)" ng-repeat="slide in slides">
       <h2>{{slide.name}}</h2>
+      <h4>{{slide.category}}</h4>
       <p><span>{{slide.desc.en}}</span></p>
     </div>
   </div>

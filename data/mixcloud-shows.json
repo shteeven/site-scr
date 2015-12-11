@@ -5,7 +5,8 @@
     "artist_id": 999666335,
     "social":{"mixcloud-plugin":"https://www.mixcloud.com/SCR_Radio/cerebral-noodles-episode-1/"},
     "images":["https://www.flickr.com/photos/136770876@N08/shares/c7fFV4", "image 4"],
-    "desc": {"en":"A savory journey through instant electronic ramen to stimulate those neural tastebuds. Each episode a different flavor"}
+    "desc": {
+      "en":"A savory journey through instant electronic ramen to stimulate those neural tastebuds. Each episode a different flavor"}
   },
   {
     "name": "The Air Up There",
@@ -13,7 +14,8 @@
     "artist_id": 999666336,
     "social":{"instagram":"https://www.instagram.com/choesbeforehoes/", "mixcloud":"https://www.mixcloud.com/SCR_Radio/the-air-up-there-dj-airbear/"},
     "images":["https://www.flickr.com/photos/136770876@N08/shares/VEs39K", "image 5"],
-    "desc": {"en":"Seoul based record collector and DJ and one half of the TMI crew. DJ Airbear plays a mix of old and future classics from here and there and occasional guest DJs might swing by and join in.."}
+    "desc": {
+      "en":"Seoul based record collector and DJ and one half of the TMI crew. DJ Airbear plays a mix of old and future classics from here and there and occasional guest DJs might swing by and join in.."}
   },
   {
     "name": "Big Boy XL - The XL Hour",
