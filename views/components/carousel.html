@@ -15,7 +15,7 @@
     </div>
   </div>
 
-  <div class="carousel-img-container">
+  <div class="carousel-img-container" ng-mousedown="stopRotation()" ng-mouseup="startRotation()">
     <div class="bg-img" ng-class="direction" ng-repeat="slide in slides" ng-hide="!isCurrentSlideIndex($index)" style="background-image: url('{{slide.images[0]}}')"></div>
   </div>
 
@@ -24,7 +24,7 @@
       <h2>{{slide.name}}</h2>
       <h4>{{slide.category}}</h4>
       <p><span>{{slide.desc.en}}</span></p>
-      <a ui-sref="pages({type:'{{slide.category}}', id:'{{slide.id}}')">Go! --></a>
+      <!--<a ui-sref="pages({type:'{{slide.category}}', id:'{{slide.id}}')">Go! &ndash;&gt;</a>-->
     </div>
   </div>
 </div>
