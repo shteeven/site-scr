@@ -1,5 +1,5 @@
 
-<div class="carousel-container" ng-swipe-left="next()" ng-swipe-right="previous()">
+<div class="carousel-container" ng-swipe-left="next()" ng-swipe-right="previous()" ng-mousedown="stopRotation()" ng-mouseup="startRotation()">
   <!--Top Marquee for controls and info display-->
   <div class="carousel-controls col-xs-12">
     <div class="previous" ng-click="previous()" ng-mouseover="stopRotation()" ng-mouseleave="startRotation()">
@@ -15,7 +15,7 @@
     </div>
   </div>
 
-  <div class="carousel-img-container" ng-mousedown="stopRotation()" ng-mouseup="startRotation()">
+  <div class="carousel-img-container">
     <div class="bg-img" ng-class="direction" ng-repeat="slide in slides" ng-hide="!isCurrentSlideIndex($index)" style="background-image: url('{{slide.images[0]}}')"></div>
   </div>
 
